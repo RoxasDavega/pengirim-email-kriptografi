@@ -8,7 +8,7 @@ const API_ENDPOINT = {
   DETAILSENT: (id) => `${BASE_URL}mail/sent/${id}`,
   SENT: `${BASE_URL}mail/sent`,
   PICTURE: (id) => `${BASE_URL}course/image/${id}`,
-  ADD: `${BASE_URL}course/`,
+  ADD: `${BASE_URL}mail/sendMail`,
 };
 
 export default API_ENDPOINT;

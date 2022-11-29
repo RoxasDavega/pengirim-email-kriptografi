@@ -18,7 +18,7 @@ const Home = {
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col">From</th>
+                  <th scope="col">Email</th>
                   <th scope="col">Subject</th>
                   <th scope="col">Detail</th>
                 </tr>
@@ -42,7 +42,7 @@ const Home = {
     </div>
     <ul class="navigate-link">
       <li><a href="/#/inbox">Inbox</a></li>
-      <li><a href="/#/sent">Sent</a></li>
+      <li><a href="/#/send">Send</a></li>
       <li><button class="logout" type="button">Logout</button></li>
     </ul>
   </nav>

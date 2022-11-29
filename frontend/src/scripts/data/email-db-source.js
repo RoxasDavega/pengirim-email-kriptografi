@@ -46,12 +46,8 @@ class EmailDbSource {
   }
 
   static async add(formData) {
-    const response = await fetch(API_ENDPOINT.ADD, {
+    const response = await this.fetchWithToken(API_ENDPOINT.ADD, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        // Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
-      },
       body: formData,
     });
     const responseJson = await response.json();

@@ -25,7 +25,7 @@ const SentDetail = {
     </div>
     <ul class="navigate-link">
       <li><a href="/#/inbox">Inbox</a></li>
-      <li><a href="/#/sent">Sent</a></li>
+      <li><a href="/#/send">Send</a></li>
       <li><button class="logout" type="button">Logout</button></li>
     </ul>
   </nav>
